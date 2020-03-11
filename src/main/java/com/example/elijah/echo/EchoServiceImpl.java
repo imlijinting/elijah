@@ -1,4 +1,4 @@
-package com.example.elijah;
+package com.example.elijah.echo;
 
 import static com.example.elijah.config.RedisCacheConfig.CACHE_KEY_PATTERN;
 
