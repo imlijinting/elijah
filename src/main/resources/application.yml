@@ -1,0 +1,13 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  cache:
+    type: redis
+    redis:
+      time-to-live: PT30S
+      key-prefix: "10010287:"
+      custom:
+        ttl:
+          "echo": PT5M
+          "student": PT1H
