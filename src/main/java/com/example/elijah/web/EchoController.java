@@ -1,6 +1,6 @@
 package com.example.elijah.web;
 
-import com.example.elijah.EchoService;
+import com.example.elijah.echo.EchoService;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
