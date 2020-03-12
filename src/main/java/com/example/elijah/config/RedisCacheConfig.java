@@ -25,7 +25,7 @@ public class RedisCacheConfig {
   private static final ObjectMapper MAPPER = Jackson2ObjectMapperBuilder.json().build();
 
   public static final String CACHE_KEY_PATTERN
-      = "#root.targetClass"
+      = "#root.targetClass.name"
       + " + '::'"
       + " + #root.methodName"
       + " + '::'"
