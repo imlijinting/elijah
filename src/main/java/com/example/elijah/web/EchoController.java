@@ -1,7 +1,7 @@
 package com.example.elijah.web;
 
-import com.example.elijah.data.entity.Student;
 import com.example.elijah.echo.EchoService;
+import com.example.elijah.school.Student;
 import java.util.Collection;
 import java.util.List;
 import lombok.extern.slf4j.Slf4j;

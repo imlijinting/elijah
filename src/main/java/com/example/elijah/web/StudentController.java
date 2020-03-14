@@ -1,7 +1,7 @@
 package com.example.elijah.web;
 
-import com.example.elijah.data.entity.Student;
 import com.example.elijah.school.QueryService;
+import com.example.elijah.school.Student;
 import com.example.elijah.school.StudentService;
 import java.util.List;
 import javax.validation.Valid;

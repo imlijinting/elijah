@@ -1,4 +1,4 @@
-package com.example.elijah.data.entity;
+package com.example.elijah;
 
 public interface HasIdentity {
 

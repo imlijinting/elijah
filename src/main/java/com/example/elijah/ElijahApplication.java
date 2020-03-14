@@ -2,8 +2,8 @@ package com.example.elijah;
 
 import static org.apache.commons.lang3.RandomStringUtils.randomAlphabetic;
 
-import com.example.elijah.data.entity.Student;
 import com.example.elijah.data.id.IdSupplier;
+import com.example.elijah.school.Student;
 import com.example.elijah.school.StudentService;
 import java.time.LocalDate;
 import java.util.stream.IntStream;

@@ -1,6 +1,6 @@
 package com.example.elijah.echo;
 
-import com.example.elijah.data.entity.Student;
+import com.example.elijah.school.Student;
 import java.util.Collection;
 import java.util.List;
 

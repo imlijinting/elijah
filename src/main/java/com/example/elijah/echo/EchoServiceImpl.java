@@ -2,7 +2,7 @@ package com.example.elijah.echo;
 
 import static com.example.elijah.config.RedisCacheConfig.CACHE_KEY_PATTERN;
 
-import com.example.elijah.data.entity.Student;
+import com.example.elijah.school.Student;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
