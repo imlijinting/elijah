@@ -11,3 +11,17 @@ spring:
         ttl:
           "echo": PT5M
           "student": PT1H
+  datasource:
+    url: jdbc:h2:mem:elijah
+    username: foo
+    password: bar
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  h2:
+    console:
+      enabled: true
+  application:
+    custom:
+      idc-code: 1
