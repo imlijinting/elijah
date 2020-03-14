@@ -8,7 +8,6 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
 import javax.persistence.Transient;
-import javax.validation.constraints.NotNull;
 
 @Entity
 @Table(name = "student")
@@ -24,6 +23,11 @@ public class StudentEntity {
     setStudent(student);
   }
 
+  @Transient
+  public Student getStudent() {
+    return student;
+  }
+
   @Id
   @Column(name = "studentid", updatable = false)
   public String getId() {
@@ -36,29 +40,25 @@ public class StudentEntity {
   }
 
   @Column(name = "birthday")
-  public @NotNull LocalDate getBirthday() {
+  public LocalDate getBirthday() {
     return student.getBirthday();
   }
 
-  @Transient
-  public Student getStudent() {
-    return student;
+
+  private void setStudent(Student student) {
+    this.student = student;
   }
 
   public void setId(String id) {
     student.setId(id);
   }
 
-  public void setName(@NotNull String name) {
+  public void setName(String name) {
     student.setName(name);
   }
 
-  public void setBirthday(@NotNull LocalDate birthday) {
+  public void setBirthday(LocalDate birthday) {
     student.setBirthday(birthday);
-  }
-
-  private void setStudent(Student student) {
-    this.student = student;
   }
 
 }
